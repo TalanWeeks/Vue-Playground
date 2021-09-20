@@ -4,6 +4,7 @@
       <div class="col-12">
         <div class="border p-1">
           <div class="reverse-message">
+            <input v-model="state.message">
             <p>Original Message: {{state.message}}</p>
             <p>Computed Reversed Message: {{state.reversedMessage}}</p>
           </div>
